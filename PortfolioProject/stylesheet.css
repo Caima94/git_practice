@@ -33,7 +33,6 @@ header {
     background-color: #00002a;
     border-bottom: ridge 1px #00003a;
     height: 60px;
-    z-index: 1;
     margin: 0;
 }
 
@@ -54,8 +53,7 @@ header {
 
 .nav li:hover {
   text-decoration: none;
-  color: rgba(178, 178, 180, 0.8);
-  background-color: rgb(14, 9, 85);
+  color: #404096
   transition: all 0.5s ease-in-out;
 }
 
