@@ -5,7 +5,7 @@ body {
     background-color: #00001a;
     text-align: center;
     margin: 0 auto;
-    background-image: url(://pixabay.com/fi/photos/tekniikka-ympyr%c3%a4-tekniikkaa-5090539/);
+    background-image: url(C:\Users\Mika\git_practice\PortfolioProject\resources\tech-5090539_1920.jpg);
 }
 
 header {
@@ -15,7 +15,7 @@ header {
     border-bottom: ridge 1px #00003a;
     height: 60px;
     z-index: 1;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .nav {
@@ -30,6 +30,7 @@ header {
     vertical-align: middle;
     display: inline-block;
     list-style-type: none;
+    color: #2a2a31;
 }
 
 form {
