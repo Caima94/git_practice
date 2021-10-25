@@ -5,7 +5,20 @@ body {
     background-color: #00001a;
     text-align: center;
     margin: 0 auto;
+}
+
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.title {
     background-image: url(C:\Users\Mika\git_practice\PortfolioProject\resources\tech-5090539_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 70%;
+    height: auto;
 }
 
 header {
@@ -30,7 +43,18 @@ header {
     vertical-align: middle;
     display: inline-block;
     list-style-type: none;
-    color: #2a2a31;
+    color: #4c4c55;
+}
+
+.nav li:hover {
+  text-decoration: none;
+  color: rgba(178, 178, 180, 0.8);
+  background: rgb(14, 9, 85);
+  padding: 15px 40px;
+  border-radius: 1px;
+  font-weight: normal;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
 }
 
 form {
