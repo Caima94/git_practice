@@ -1,4 +1,4 @@
-body {
+html, body {
     font-family: 'Roboto Mono', monospace;
     font-size: 16px;
     color: seashell;
@@ -6,6 +6,7 @@ body {
     margin: 0 auto;
     width: 100%;
     height: 100%;
+    box-sizing: border-box;
 }
 
 #main {
@@ -17,6 +18,7 @@ body {
     background-position: center;
     width: 100%;
     height: auto;
+    background-size: 100%;
 }
 
 p {
@@ -37,9 +39,10 @@ header {
     position: fixed;
     width: 100%;
     background-color: #00002a;
-    border-bottom: ridge 1px #00003a;
+    border-bottom: solid 1px #9191a3;
     height: 60px;
     margin: 0 auto;
+    opacity: 0.8;
 }
 
 .nav {
@@ -55,17 +58,17 @@ header {
     vertical-align: middle;
     display: inline-block;
     list-style-type: none;
-    color: #9d9da7;
+    color: #a7a7b4;
 }
 
 .nav li:hover {
   text-decoration: none;
-  color: #2c2c9b;
+  color: #f6f6fa;
   transition: all 0.5s ease-in-out;
 }
 
 form {
-    
+    display: flex;
     justify-content: center;
     align-items: center;
 }
