@@ -12,7 +12,7 @@ body {
     padding-top: 80px;
     justify-content: center;
     text-align: center;
-    background-image: url(C:\Users\Mika\git_practice\PortfolioProject\resources\tech-5090539_1920.jpg);
+    background-image: url(./resources/tech-5090539_1920.jpg);
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
@@ -24,6 +24,8 @@ p {
 }
 
 h1 {
+    font-size: 32px;
+    font-weight: bold;
     margin-top: 10%;
     margin: 0 auto;
     text-align: center;
@@ -41,6 +43,7 @@ header {
 }
 
 .nav {
+    vertical-align: middle;
     float: right;
     margin: 0 auto;
     height: 100%;
@@ -52,12 +55,12 @@ header {
     vertical-align: middle;
     display: inline-block;
     list-style-type: none;
-    color: #4c4c55;
+    color: #9d9da7;
 }
 
 .nav li:hover {
   text-decoration: none;
-  color: #404096;
+  color: #2c2c9b;
   transition: all 0.5s ease-in-out;
 }
 
