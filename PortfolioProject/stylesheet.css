@@ -1,10 +1,16 @@
 body {
+    font-family: helvetica, arial, sans-serif;
     width: 100%;
     height: 100%;
     padding: 0;
     margin: 0;
 }
-h1, h2 {
+h1 {
+    font-size: 52px;
+    margin-top: 1.5em;
+}
+
+h2 {
     margin-top: 3em;
 }
 
@@ -20,6 +26,9 @@ p {
     padding-top: 80px;
     text-align: center;
     background-image: url(./resources/Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #;
 }
 
 #header {
@@ -52,4 +61,11 @@ p {
   text-decoration: none;
   color: #f6f6fa;
   transition: all 0.5s ease-in-out;
+}
+
+footer {
+    position: relative;
+    height: 50px;
+    background-color: #00002a;
+    color: seashell !important;
 }
