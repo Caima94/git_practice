@@ -69,3 +69,11 @@ footer {
     background-color: #00002a;
     color: seashell !important;
 }
+
+#labelName, #labelemail, #labelphone {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
