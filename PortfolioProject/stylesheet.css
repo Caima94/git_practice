@@ -46,6 +46,7 @@ p {
     float: right;
     margin: 0 auto;
     height: 100%;
+    margin-top: 15px;
 }
 
 .nav li {
