@@ -94,3 +94,9 @@ footer {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+#resetButton, #submitButton {
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
