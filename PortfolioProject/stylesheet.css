@@ -2,7 +2,6 @@ body {
     font-family: 'Roboto Mono', monospace;
     font-size: 16px;
     color: seashell;
-    background-color: #00001a;
     text-align: center;
     margin: 0 auto;
     width: 100%;
@@ -11,6 +10,13 @@ body {
 
 #main {
     padding-top: 80px;
+    justify-content: center;
+    text-align: center;
+    background-image: url(C:\Users\Mika\git_practice\PortfolioProject\resources\tech-5090539_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: auto;
 }
 
 p {
@@ -24,13 +30,6 @@ h1 {
     
 }
 
-.title {
-    background-image: url(C:\Users\Mika\git_practice\PortfolioProject\resources\tech-5090539_1920.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 70%;
-    height: auto;
-}
 
 header {
     position: fixed;
