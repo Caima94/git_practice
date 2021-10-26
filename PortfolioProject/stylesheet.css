@@ -1,46 +1,34 @@
-html, body {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 16px;
-    color: seashell;
-    text-align: center;
-    margin: 0 auto;
+body {
     width: 100%;
     height: 100%;
-    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1, h2 {
+    margin-top: 3em;
+}
+
+p {
+    line-height: 1.6em;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 #main {
     padding-top: 80px;
-    justify-content: center;
     text-align: center;
-    background-image: url(./resources/tech-5090539_1920.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    background-size: 100%;
+    background-color
 }
 
-p {
-    line-height: 16px;
-}
-
-h1 {
-    font-size: 32px;
-    font-weight: bold;
-    margin-top: 10%;
-    margin: 0 auto;
-    text-align: center;
-    
-}
-
-
-header {
+#header {
+    background-color:#00002a;
+    height: 60px;
+    color:#fff;
     position: fixed;
     width: 100%;
-    background-color: #00002a;
-    border-bottom: solid 1px #9191a3;
-    height: 60px;
-    margin: 0 auto;
+    border-bottom: solid 2px #9191a3;
     opacity: 0.8;
 }
 
@@ -65,15 +53,3 @@ header {
   color: #f6f6fa;
   transition: all 0.5s ease-in-out;
 }
-
-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-footer {
-    position: relative;
-    bottom: 0;
-}
-
