@@ -152,3 +152,14 @@ footer {
     float: right;
     
 }
+
+/* calculator styling */
+
+.calculator-grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 10%;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
