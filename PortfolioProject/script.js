@@ -9,7 +9,7 @@ if (document.body.contains(document.getElementById('contactForm'))) {
     }
 
     const submitFunction = () => {
-        if (document.contactForm.email.value == "" && document.contactForm.phone.value == 0) {
+        if ((document.contactForm.email.value == "") && (document.contactForm.phone.value == 0)) {
             alert('please provide at least your email or your phone number!');
         }
         alert('Your message would have been sent! Due to this page being entirely for practice however, the form does not really send the information anywhere.');
