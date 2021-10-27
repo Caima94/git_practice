@@ -1,8 +1,8 @@
 /*Form interactivity */
 
 if (document.body.contains(document.getElementById('contactForm'))) {
-    const reset = document.getElementById('resetButton');
-    const submit = document.getElementById('submitButton');
+    const resetForm = document.getElementById('resetButton');
+    const submitForm = document.getElementById('submitButton');
     const emailValue = document.body.getElementById('email');
     const phoneValue = document.body.getElementById('phone');
 
@@ -17,6 +17,6 @@ if (document.body.contains(document.getElementById('contactForm'))) {
         alert('Your message would have been sent! Due to this page being entirely for practice however, the form does not really send the information anywhere.');
     }
 
-    reset.onclick = resetFunction;
-    submit.onclick = submitFunction;
+    resetForm.onclick = resetFunction;
+    submitForm.onclick = submitFunction;
 }
