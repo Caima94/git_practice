@@ -189,9 +189,15 @@ footer {
     grid-column: span 2;
 }
 
+.equals {
+    grid-column: span 2;
+}
+
 .output .previous-operation {
     color: seashell;
+    font-size: 1.5em;
 }
 .output .current-operation {
     color: seashell;
+    font-size: 1.5em;
 }
