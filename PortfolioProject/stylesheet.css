@@ -94,7 +94,7 @@ a:active {
 
 footer {
     position: relative;
-    height: 50px;
+    height: 70px;
     background-color: #00002a;
     color: seashell !important;
 }
@@ -111,4 +111,18 @@ footer {
     margin-top: 10px;
     margin-right: 5px;
     margin-left: 5px;
+}
+
+#google {
+    float: left;
+    margin-left: 15px;
+}
+
+#disclaimer {
+    float: right;
+    
+}
+
+#copyright {
+    
 }
