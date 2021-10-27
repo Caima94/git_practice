@@ -3,8 +3,8 @@
 if (document.body.contains(document.getElementById('contactForm'))) {
     const resetForm = document.getElementById('resetButton');
     const submitForm = document.getElementById('submitButton');
-    const emailValue = document.body.getElementById('email');
-    const phoneValue = document.body.getElementById('phone');
+    const emailValue = document.getElementById('email');
+    const phoneValue = document.getElementById('phone');
 
     const resetFunction = () => {
         document.getElementById('contactForm').reset();
