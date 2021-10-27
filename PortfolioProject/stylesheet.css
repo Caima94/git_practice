@@ -183,5 +183,15 @@ footer {
     justify-content: space-around;
     flex-direction: column;
     padding: 15px;
-    
+}
+
+.clear {
+    grid-column: span 2;
+}
+
+.output .previous-operation {
+    color: seashell;
+}
+.output .current-operation {
+    color: seashell;
 }
