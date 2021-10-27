@@ -91,12 +91,33 @@ a:active {
     text-decoration: none;
 }
 
+.project1 {
+    margin-bottom: 20px;
+}
+
+.project1 a {
+    color: black;
+}
+
+.project1 a:hover {
+    color: #f6f6fa;
+}
+
+.project2 a {
+    color: black;
+}
+
+.project2 a:hover {
+    color: #f6f6fa;
+}
+
 
 footer {
     position: relative;
-    height: 70px;
+    height: 75px;
     background-color: #00002a;
     color: seashell !important;
+    margin-top: 100px;
 }
 
 #labelName, #labelemail, #labelphone {
@@ -124,5 +145,5 @@ footer {
 }
 
 #copyright {
-    
+
 }
