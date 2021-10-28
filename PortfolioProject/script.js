@@ -31,12 +31,9 @@ const clearButton = document.querySelector('.clear');
 const previousOperation = document.querySelector('.previous-operation');
 const currentOperation = document.querySelector('.current-operation');
 
-    if(document.body.contains(document.getElementById('output'))) {
-        const clear = () => {
-        document.getElementById('output').reset();
+const clear = () => {
+     document.getElementById('output').innerHTML("");
     }
-    clearButton.onclick = clear;
-}
 
 clearButton.onclick = clear;
 
