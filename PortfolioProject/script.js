@@ -33,8 +33,8 @@ const currentOperation = document.querySelector('.current-operation');
 
 
 const clear = () => {
-     document.getElementById('previous-operation').innerHTML("");
-     document.getElementById('current-operation').innerHTML("");
+     document.getElementById('previous-operation').innerHTML = "" ;
+     document.getElementById('current-operation').innerHTML = "";
 }
 
 clearButton.onclick = clear;
