@@ -31,14 +31,13 @@ const clearButton = document.getElementById('.clear');
 const previousOperation = document.querySelector('.previous-operation');
 const currentOperation = document.querySelector('.current-operation');
 
-if (document.body.contains(document.getElementById('previous-operation'))) {
+
 const clear = () => {
      document.getElementById('previous-operation').innerHTML("");
      document.getElementById('current-operation').innerHTML("");
-    }
+}
 
 clearButton.onclick = clear;
-}
 
 const erase = () => {
     
