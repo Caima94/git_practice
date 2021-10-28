@@ -11,11 +11,9 @@ if (document.body.contains(document.getElementById('contactForm'))) {
     const submitFunction = () => {
         if ((document.getElementById('email').value.length == 0) && (document.getElementById('phone').value.length == 0)) {
             alert('Please enter at least your email or your phone number!');
-        }
+        } else if ((document.getElementById('email').value.length !== 0) || (document.getElementById('phone').value.length !== 0)) {
         alert('Your message would have been sent! Due to this page being entirely for practice however, the form does not really send the information anywhere.');
-    }
-
-    if (document.getElementById('email'))
+    }}
 
     resetForm.onclick = resetFunction;
     submitForm.onclick = submitFunction;
@@ -32,3 +30,27 @@ const deleteButton = document.querySelector('.delete');
 const clearButton = document.querySelector('.clear');
 const previousOperation = document.querySelector('.previous-operation');
 const currentOperation = document.querySelector('.current-operation');
+
+const clear = () => {
+    if(document.getElementById('output').contains) {
+        document.getElementById('output').reset();
+    }
+}
+clearButton.onclick = clear;
+
+
+const erase = () => {
+    
+}
+
+const addNumber = number => {
+    
+}
+
+const operation = operator  => {
+    
+}
+
+const display = () => {
+    
+}
