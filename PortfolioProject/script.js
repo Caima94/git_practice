@@ -20,3 +20,15 @@ if (document.body.contains(document.getElementById('contactForm'))) {
     resetForm.onclick = resetFunction;
     submitForm.onclick = submitFunction;
 }
+
+/*form code ends */
+
+/* Calculator code */
+
+const numberButtons = document.querySelectorAll('.number');
+const operatorButtons = document.querySelectorAll('.operator');
+const equalsButton = document.querySelector('.equals');
+const deleteButton = document.querySelector('.delete');
+const clearButton = document.querySelector('.clear');
+const previousOperation = document.querySelector('.previous-operation');
+const currentOperation = document.querySelector('.current-operation');
