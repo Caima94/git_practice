@@ -32,7 +32,7 @@ const previousOperation = document.querySelector('.previous-operation');
 const currentOperation = document.querySelector('.current-operation');
 
 const clear = () => {
-    if(document.getElementById('output').contains) {
+    if(document.body.contains(document.getElementById('output'))) {
         document.getElementById('output').reset();
     }
 }
