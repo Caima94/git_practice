@@ -26,8 +26,8 @@ if (document.body.contains(document.getElementById('contactForm'))) {
 const numberButtons = document.querySelectorAll('.number');
 const operatorButtons = document.querySelectorAll('.operator');
 const equalsButton = document.querySelector('.equals');
-const deleteButton = document.querySelector('.delete');
-const clearButton = document.querySelector('.clear');
+const deleteButton = document.getElementById('.delete');
+const clearButton = document.getElementById('.clear');
 const previousOperation = document.querySelector('.previous-operation');
 const currentOperation = document.querySelector('.current-operation');
 
