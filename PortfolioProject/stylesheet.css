@@ -175,6 +175,11 @@ footer {
     background-color: #8f67fa
 }
 
+.calculator-buttons button:active {
+    background-color: #b59df7; 
+    transition-duration: 0.2ms ease-out;
+}
+
 .output {
     grid-column: 1 / -1;
     background-color: #030107;
