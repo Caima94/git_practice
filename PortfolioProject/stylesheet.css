@@ -177,7 +177,7 @@ footer {
 
 .calculator-grid button:active {
     background-color: #b59df7; 
-    transition: all 0.7ms ease-out;
+    transition: all 0.7ms ease-in-out;
 }
 
 .output {
