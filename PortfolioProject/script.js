@@ -32,7 +32,7 @@ const previousOperation = document.querySelector('.previous-operation');
 const currentOperation = document.querySelector('.current-operation');
 
 
-const clear = () => {
+const clear = (event) => {
      document.getElementById('previous-operation').innerHTML = "" ;
      document.getElementById('current-operation').innerHTML = "";
 }
