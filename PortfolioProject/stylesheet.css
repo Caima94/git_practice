@@ -164,18 +164,18 @@ footer {
     grid-template-rows: minmax(120px, auto) repeat(5, 100px);
 }
 
-.calculator-buttons button {
+.calculator-grid button {
     cursor: pointer;
     font-size: 2em;
     border: 1px solid black;
     background-color: #6200ff;
 }
 
-.calculator-buttons button:hover {
+.calculator-grid button:hover {
     background-color: #8f67fa
 }
 
-.calculator-buttons button:active {
+.calculator-grid button:active {
     background-color: #b59df7; 
     transition-duration: 0.2ms ease-out;
 }
