@@ -23,34 +23,6 @@ if (document.body.contains(document.getElementById('contactForm'))) {
 
 /* Calculator code */
 
-const numberButtons = document.querySelectorAll('.number');
-const operatorButtons = document.querySelectorAll('.operator');
-const equalsButton = document.querySelector('.equals');
-const deleteButton = document.getElementById('.delete');
-const clearButton = document.getElementById('.clear');
-const previousOperation = document.querySelector('.previous-operation');
-const currentOperation = document.querySelector('.current-operation');
 
-
-const clear = (event) => {
-     document.getElementById('previous-operation').innerHTML = "" ;
-     document.getElementById('current-operation').innerHTML = "";
-}
-
-clearButton.onclick = clear;
-
-const erase = () => {
-    
-}
-
-const addNumber = number => {
-    
-}
-
-const operation = operator  => {
-    
-}
-
-const display = () => {
-    
-}
+const calculator = document.querySelector('.calculator-grid');
+const buttons = document.querySelector('.calculator-buttons');
