@@ -25,9 +25,7 @@ if (document.body.contains(document.getElementById('contactForm'))) {
 
 
 const calculator = document.querySelector('.calculator-grid');
-const buttons = document.querySelector('button');
-
-const action = key.dataset.action
+const buttons = calculator.querySelector('button');
 
 if (!action) {
     console.log('number');
