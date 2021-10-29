@@ -25,4 +25,17 @@ if (document.body.contains(document.getElementById('contactForm'))) {
 
 
 const calculator = document.querySelector('.calculator-grid');
-const buttons = document.querySelector('.calculator-buttons');
+const buttons = document.querySelector('.calculator-grid buttons');
+const key = e.target
+const action = key.dataset.action
+
+if (!action) {
+    console.log('number');
+}
+
+buttons.addEventListener('click', e => {
+    if (e.target.matches('button')) {
+        // display clicked value
+    }
+})
+
